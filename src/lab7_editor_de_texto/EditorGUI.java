@@ -30,7 +30,7 @@ public class EditorGUI extends JFrame {
 
         funciones = new EditorFunciones();
         gestorDeshacer = new UndoManager();
-        setTitle("Editor de Texto Mejorado");
+        setTitle("Editor de Texto de Roy, Fernando y Wilwer");
         setSize(1000, 700);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
