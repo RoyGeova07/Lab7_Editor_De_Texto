@@ -1,4 +1,4 @@
-# comandos trabajo con  Roy Umaña, Fernando Hernandez y Wilwer colindrez
+# comandos trabajo con  Roy Umaña, Fernando Hernandez y Wilmer colindres
 
 ![image](https://github.com/user-attachments/assets/023dee5d-95f2-401e-bdfd-cf33b288bd17)
 
