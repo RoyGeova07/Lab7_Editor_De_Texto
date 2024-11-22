@@ -29,7 +29,7 @@ public class EditorFunciones {
         colorActual = Color.BLACK;
     }
 
-    // Método para abrir archivo .txt
+   
     public void abrirArchivoConFormato(File archivo, JTextPane areaTexto) throws Exception {
         RTFEditorKit editorKit = new RTFEditorKit();
         StyledDocument doc = new DefaultStyledDocument();
@@ -38,7 +38,7 @@ public class EditorFunciones {
         }
         areaTexto.setStyledDocument(doc);
     }
-  // Método para guardar archivo .txt
+  
     public void guardarArchivoConFormato(File archivo, JTextPane areaTexto) throws Exception {
         RTFEditorKit editorKit = new RTFEditorKit();
         try (FileOutputStream fos = new FileOutputStream(archivo)) {
@@ -46,7 +46,7 @@ public class EditorFunciones {
         }
     }
 
-    // Métodos para actualizar el formato
+   
     public void actualizarFuente(String nombreFuente, int estilo, int tamaño) {
         fuenteActual = new Font(nombreFuente, estilo, tamaño);
     }
